@@ -15,7 +15,7 @@ function startBattle(){
     document.getElementById("content").innerHTML = "";
 
     let id1 = 69;
-    let id2 = 70;
+    let id2 = 644;
 
     getAndCompareHeroes(id1, id2);
 }
@@ -76,6 +76,7 @@ function showBattle(hero1, hero2){
 
 // exibe o herói na tela
 function showHero(data){
+    console.log(data.image.url);
     let name = data.name;
     let intelligence = data.powerstats.intelligence;
     let strength = data.powerstats.strength;
