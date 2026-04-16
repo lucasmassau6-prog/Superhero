@@ -98,7 +98,6 @@ function showHero(data){
         "</article>";
 }
 
-// chamada da API
 function callAPI(url, callback){
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
