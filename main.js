@@ -14,8 +14,8 @@ function getRandom(){
 function startBattle(){
     document.getElementById("content").innerHTML = "";
 
-    let id1 = 69;
-    let id2 = 644;
+    let id1 = getRandom();
+    let id2 = getRandom();
 
     getAndCompareHeroes(id1, id2);
 }
